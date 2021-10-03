@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  color: #502050;
+}
+
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 100px 0 100px 0;
+}
+
+.top .main-left {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  min-width: 400px;
+  width: 40%;
+}
+
+.top .main-left h1 {
+  font-size: 3rem;
+}
+
+.top .main-left p {
+  font-size: 1.5rem;
+}
+
+.top .ratings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 50px;
+}
+
+.top .ratings .box {
+  background-color: #937b92;
+  padding: 20px 20px;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+.top .ratings .box b {
+  color: #ffe627;
+  font-size: 1.25rem;
+}
+
+.top .ratings .one {
+  position: relative;
+  right: 50px;
+}
+
+.top .ratings .three {
+  position: relative;
+  left: 50px;
+}
+
+.bottom .testimonials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.bottom .testimonials .test {
+  width: 25%;
+  height: 250px;
+  background-color: #502050;
+  border-radius: 15px;
+  min-width: 350px;
+}
+
+.bottom .testimonials .test .pic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bottom .testimonials .test .pic img {
+  border-radius: 50%;
+  padding: 25px;
+}
+
+.bottom .testimonials .test .pic h4 {
+  color: white;
+  font-size: 1.25rem;
+}
+
+.bottom .testimonials .test .pic p {
+  color: #ee68a4;
+}
+
+.bottom .testimonials .test .text {
+  color: white;
+  padding: 0 25px;
+  font-size: 1.1rem;
+}
+
+.bottom .testimonials .test2 {
+  position: relative;
+  top: 50px;
+}
+
+.bottom .testimonials .test3 {
+  position: relative;
+  top: 100px;
+}
+/*# sourceMappingURL=styles.css.map */
